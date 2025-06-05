@@ -25,5 +25,5 @@ def run_etl_pipeline(search_term, max_results, bucket_name):
 if __name__ == "__main__":
     SEARCH_TERM = "AI Jobs"
     MAX_RESULTS = 10
-    BUCKET_NAME = "juthy-youtube-etl"  # Change this to your actual bucket
+    BUCKET_NAME = "your-bucket-name"  # Change this to your actual bucket
     run_etl_pipeline(SEARCH_TERM, MAX_RESULTS, BUCKET_NAME)
